@@ -41,7 +41,7 @@ int main()
 		} else {
 			printf("%d ('%c')\r\n", c, c);
 		}
-		if (c != 'q')
+		if (c == 'q')
 			break;
 	}
 	return 0;
